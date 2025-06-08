@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #2a5d67;
+  --secondary-color: #5ab1bb;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+}
+@media (max-width: 768px) { /* Mobile */ }
+@media (min-width: 769px) and (max-width: 1200px) { /* Tablet */ }
+@media (min-width: 1201px) { /* Desktop */ }
+.service-card {
+  transition: transform 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+}
